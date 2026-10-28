@@ -1,0 +1,7 @@
+s = input("Введіть текст: ")
+result = ""
+for ch in s:
+    if ch.isupper() and result != "":
+        result += " "
+    result += ch
+print(result)
