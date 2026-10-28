@@ -1,0 +1,6 @@
+s = input("Введить число:")
+result = ""
+for ch in s:
+    if ch.isdigit():
+        result += ch
+print(result)
