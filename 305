@@ -1,0 +1,2 @@
+team = input("Введіть назву команди:")
+print(team + "! This is a champion!")
