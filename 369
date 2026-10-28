@@ -1,0 +1,11 @@
+s = input()
+ch = input()
+n = s.count(ch)
+if n == 0:
+    print(-2)
+elif n == 1:
+    print(-1)
+else:
+    first = s.find(ch)
+    second = s.find(ch, first + 1)
+    print(second)
