@@ -1,0 +1,11 @@
+s = input()
+letters = "abcdefghijklmnopqrstuvwxyz"
+result = ""
+zeros = 0
+for ch in s:
+    if ch == "0":
+        zeros += 1
+    else:
+        result += letters[zeros]
+        zeros = 0
+print(result)
